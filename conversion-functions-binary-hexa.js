@@ -8,6 +8,8 @@ Consult documentation on how to utilize the following methods:
 /* Base 10 to base 2 */
 function decimalToBinary(blob) {
   // Your code here
+  const num = blob.toString(2);
+  return (`0b${num}`);
 }
 
 /* Base 10 to base 16 */
