@@ -33,6 +33,9 @@ function hexadecimalToDecimal(blob) {
   return baseHex;
 }
 
+
+//test code 
+//test code2
 // console.log('Decimal to binary:')
 // console.log(decimalToBinary(13))  // '0b1101'
 // console.log(decimalToBinary(72))  // '0b1001000'
