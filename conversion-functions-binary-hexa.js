@@ -14,7 +14,8 @@ function decimalToBinary(blob) {
 
 /* Base 10 to base 16 */
 function decimalToHexadecimal(blob) {
-  // Your code here
+  const numOne = blob.toString(16);
+  return (`0x${numOne}`)
 }
 
 /* Base 2 to base 10 */
@@ -32,10 +33,10 @@ function hexadecimalToDecimal(blob) {
 // console.log(decimalToBinary(72))  // '0b1001000'
 // console.log('')
 
-// console.log('Decimal to hexadecimal:')
-// console.log(decimalToHexadecimal(9))   // '0x9'
-// console.log(decimalToHexadecimal(32))  // '0x20'
-// console.log('')
+console.log('Decimal to hexadecimal:')
+console.log(decimalToHexadecimal(9))   // '0x9'
+console.log(decimalToHexadecimal(32))  // '0x20'
+console.log('')
 
 // console.log('Binary to decimal:')
 // console.log(binaryToDecimal('0b0101'))      // 5
