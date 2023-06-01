@@ -14,8 +14,7 @@ function decimalToBinary(blob) {
 
 /* Base 10 to base 16 */
 function decimalToHexadecimal(blob) {
-  const numOne = blob.toString(16);
-  return (`0x${numOne}`)
+  
 }
 
 /* Base 2 to base 10 */
